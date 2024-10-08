@@ -9,7 +9,7 @@ body {
 
 .marksheet-table {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: black;
     width: 80%;
     max-width: 80%;
@@ -19,8 +19,8 @@ body {
 .marksheet-table td {
     padding: 25px;
     text-align: center;
-    border: 1px solid black;
-    color: wheat;
+    border: 1px solid white;
+    color: palevioletred;
 }
 
 .marksheet-table th {
@@ -29,5 +29,5 @@ body {
 }
 
 .marksheet-table tr:nth-child(even) {
-    background-color: #111111;
+    background-color: ;
 }
