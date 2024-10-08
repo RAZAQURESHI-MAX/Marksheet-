@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a9cce3;
+}
+
+.marksheet-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: black;
+    width: 80%;
+    max-width: 80%;
+}
+
+.marksheet-table th,
+.marksheet-table td {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid black;
+    color: wheat;
+}
+
+.marksheet-table th {
+    background-color: black;
+    font-weight: bolder;
+}
+
+.marksheet-table tr:nth-child(even) {
+    background-color: #111111;
+}
